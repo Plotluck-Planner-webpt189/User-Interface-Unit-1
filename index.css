@@ -58,7 +58,6 @@ p {	color:#F1B24A;
     text-align: center;	
     margin: 0%;	
     font-size:2rem;
-    /* background-color:#4D774E; */
     padding:2%;
 }	
 
@@ -79,6 +78,8 @@ header {
     background-color:#164A41;
     padding:0%;
     }
+
+/*CODE BEGINS HERE  */
 .nav ul{
     display:block;
     list-style:none;
@@ -125,8 +126,8 @@ button{
     border-radius:25px;
     border:2px solid #4D774E;
     box-shadow: 2px 2px 1px ##5C6E58;
-    transition: 3s;
-    background-color:#164A41;
+    transition: 2s;
+    background-color: #164A41;
     margin-top:5px;
 }
 button:hover{
@@ -163,7 +164,7 @@ button:hover{
     text-align:center; 
 }
 
-/* <footer */
+/* FOOTER */
 footer {
     background:#164A41;
     width:100%;
@@ -187,4 +188,29 @@ footer nav a {
     padding:3rem;
 }
 
-/* Responsive Design */
+/* CODE FOR ABOUT US PAGE */
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3rem;
+}
+.flex-container div{
+    width:300px;
+    margin: 1rem;
+    background-color:#4D774E;
+    border-radius: 15px;
+    padding:5px;
+    }
+
+  .flex-container img{
+  border: 2px solid #4D774E;
+  padding: 1px;
+  display: flex;
+  justify-content:center;
+  border-radius: 15px;
+  margin: 50px ;
+  margin-bottom:2px;
+  opacity:0.8;
+   }
+/* RESPONSIVE DESIGN */
