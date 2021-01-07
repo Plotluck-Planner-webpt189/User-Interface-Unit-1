@@ -188,6 +188,7 @@ footer nav a {
     padding:3rem;
 }
 
+
 /* CODE FOR ABOUT US PAGE */
 .flex-container{
     display: flex;
@@ -214,3 +215,158 @@ footer nav a {
   opacity:0.8;
    }
 /* RESPONSIVE DESIGN */
+ /* Responsive layout properties begin here tablet*/
+
+ @media only screen and (max-width: 800px) {
+        .nav ul{
+        padding:0%;
+    }
+    .nav a{
+         padding:6px;
+        align-items: center;
+        font-size: 2rem;
+      }
+    
+     a:hover {
+      border: 2px solid  #8AA899 ;
+      border-radius: 50px 20px;
+      }
+      
+/*     .img-container div {
+        background-image:url("img\potluck2.jpg");
+        background: no-repeat;
+        width:300px;
+        padding:100px;
+        background-size:100% auto;
+        margin-left:18%;
+        margin-bottom:10px;
+    } */
+    img{
+        border-radius:4px;
+        width:50%;
+    }
+    button{
+        font-size: 2rem;
+   }
+    .container {
+        width: 600px;
+      font-size:50%;
+   }
+    
+    .top-content {
+        padding:3%;
+        font-size:50%;
+    }
+    .middle-container {
+       width: 600px;
+      font-size:50%;
+   }
+    
+    .text-container{
+        padding:3%;
+       font-size:50%;
+    }
+   /* FOOTER */
+footer {
+    background:#164A41;
+    width:100%;
+    margin: 0 auto;
+}
+
+footer nav {
+    padding: 10px 1%;
+    font-size: 6px;
+   }
+
+footer nav a {
+    font-size:3rem;
+    padding:2rem;
+}
+   
+   
+   /* CODE FOR ABOUT US PAGE */
+.flex-container{
+     margin: 2rem;
+}
+.flex-container div{
+    width:200px;
+   }
+
+  .flex-container img{
+  margin: 50px ;
+  margin-bottom:2px;
+  opacity:0.9;
+   }
+
+
+    /* responsive cell phone size 500px */ 
+    
+    
+    @media only screen and (max-width: 500px) {
+         .nav a{
+        display:flex;
+        justify-content: space-around;
+        flex-direction:column;
+        flex-flow:flex-wrap;
+        padding:30px;
+        align-items: center;
+        font-size: 3rem;
+      }
+         
+/*     .img-container div {
+        background-image:url("img\potluck2.jpg");
+        background: no-repeat;
+        width:300px;
+        padding:100px;
+        background-size:100% auto;
+        margin-left:18%;
+        margin-bottom:10px;
+    } */
+    img{
+        border-radius:4px;
+        width:30%;
+    }
+    button{
+        font-size: 2rem;
+   }
+    .container {
+      font-size:50%;
+   }
+    
+    .top-content {
+        padding:1.5%;
+        font-size:50%;
+    }
+    .middle-container {
+       width: 600px;
+      font-size:25%;
+   }
+    
+    .text-container{
+        padding:1.5%;
+       font-size:25%;
+    }
+   /* FOOTER */
+footer nav {
+    padding: 6px 0%;
+    font-size: 3px;
+   }
+
+footer nav a {
+    font-size:1.5rem;
+    padding:1rem;
+}
+         /* CODE FOR ABOUT US PAGE */
+}
+.flex-container div{
+    width:500px;
+    border-radius: 20px;
+    padding:2px;
+    }
+
+  .flex-container img{
+  border-radius: 20px;
+  opacity:0.7;
+  margin-left:25%;
+  
+   }
