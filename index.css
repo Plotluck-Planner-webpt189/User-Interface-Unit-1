@@ -1,0 +1,372 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*GENERAL STYLES*/
+html{
+    font-size:62.5%;
+    font-family: 'Arvo', serif;
+    background-color:#DADED4;
+}
+
+p {	color:#F1B24A;
+    text-align: center;	
+    margin: 0%;	
+    font-size:2rem;
+    padding:2%;
+}	
+
+h2{
+    color:white;
+    background-color:#4D774E;
+    text-align:center;
+    font-size:4rem;
+    padding:2rem;
+}
+h1{ font-family: 'Arvo',serif;
+    font-size:6rem;
+    color:#F1B24A;
+    text-align:center; 
+}
+
+header {
+    background-color:#164A41;
+    padding:0%;
+    }
+
+/*CODE BEGINS HERE  */
+.nav ul{
+    display:block;
+    list-style:none;
+    padding:1%;
+}
+.nav a{
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #8AA899;
+    display:block;
+    padding:30px;
+    align-items: center;
+    font-size: 4rem;
+  }
+.nav li{
+    display:inline-block;
+  }
+ a:hover {
+ background-color: #164A41;
+  color:#F1B24A;
+  border: 2px solid  #8AA899 ;
+  border-radius: 50px 20px;
+  }
+  
+.img-container div {
+    background-image:url("img\potluck2.jpg");
+    background: no-repeat;
+    width:300px;
+    padding:100px;
+    background-size:100% auto;
+    margin-left:18%;
+    margin-bottom:10px;
+}
+img{
+    border-radius:8px;
+}
+button{
+    font-family: 'Arvo',serif;
+    color:#F1B24A;
+    text-align:center;
+    padding:0% 2%;
+    font-size: 4rem;
+    border-radius:25px;
+    border:2px solid #4D774E;
+    box-shadow: 2px 2px 1px ##5C6E58;
+    transition: 2s;
+    background-color: #164A41;
+    margin-top:5px;
+}
+button:hover{
+    background-color:#8AA899;
+    border:2px solid #4D774E;
+    box-shadow: 2px 2px 1px green;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    color:#F1B24A;
+    background-color:#4D774E;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:5%;
+    text-align:center;
+}
+.middle-container {
+    width: 800px;
+    margin: 0 auto;
+    color:F1B24A;
+    background-color:#4D774E;
+}
+
+.text-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   padding:5%;
+    text-align:center; 
+}
+
+/* FOOTER */
+footer {
+    background:#164A41;
+    width:100%;
+    margin: 0 auto;
+}
+
+footer nav {
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    background-color:#164A41;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    font-size:4rem;
+    padding:3rem;
+}
+
+
+/* CODE FOR ABOUT US PAGE */
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3rem;
+}
+.flex-container div{
+    width:300px;
+    margin: 1rem;
+    background-color:#4D774E;
+    border-radius: 15px;
+    padding:5px;
+    }
+
+  .flex-container img{
+  border: 2px solid #4D774E;
+  padding: 1px;
+  display: flex;
+  justify-content:center;
+  border-radius: 15px;
+  margin: 50px ;
+  margin-bottom:2px;
+  opacity:0.8;
+   }
+/* RESPONSIVE DESIGN */
+ /* Responsive layout properties begin here tablet*/
+
+ @media only screen and (max-width: 800px) {
+        .nav ul{
+        padding:0%;
+    }
+    .nav a{
+         padding:6px;
+        align-items: center;
+        font-size: 2rem;
+      }
+    
+     a:hover {
+      border: 2px solid  #8AA899 ;
+      border-radius: 50px 20px;
+      }
+      
+/*     .img-container div {
+        background-image:url("img\potluck2.jpg");
+        background: no-repeat;
+        width:300px;
+        padding:100px;
+        background-size:100% auto;
+        margin-left:18%;
+        margin-bottom:10px;
+    } */
+    img{
+        border-radius:4px;
+        width:50%;
+    }
+    button{
+        font-size: 2rem;
+   }
+    .container {
+        width: 600px;
+      font-size:50%;
+   }
+    
+    .top-content {
+        padding:3%;
+        font-size:50%;
+    }
+    .middle-container {
+       width: 600px;
+      font-size:50%;
+   }
+    
+    .text-container{
+        padding:3%;
+       font-size:50%;
+    }
+   /* FOOTER */
+footer {
+    background:#164A41;
+    width:100%;
+    margin: 0 auto;
+}
+
+footer nav {
+    padding: 10px 1%;
+    font-size: 6px;
+   }
+
+footer nav a {
+    font-size:3rem;
+    padding:2rem;
+}
+   
+   
+   /* CODE FOR ABOUT US PAGE */
+.flex-container{
+     margin: 2rem;
+}
+.flex-container div{
+    width:200px;
+   }
+
+  .flex-container img{
+  margin: 50px ;
+  margin-bottom:2px;
+  opacity:0.9;
+   }
+
+
+    /* responsive cell phone size 500px */ 
+    
+    
+    @media only screen and (max-width: 500px) {
+         .nav a{
+        display:flex;
+        justify-content: space-around;
+        flex-direction:column;
+        flex-flow:flex-wrap;
+        padding:30px;
+        align-items: center;
+        font-size: 3rem;
+      }
+         
+/*     .img-container div {
+        background-image:url("img\potluck2.jpg");
+        background: no-repeat;
+        width:300px;
+        padding:100px;
+        background-size:100% auto;
+        margin-left:18%;
+        margin-bottom:10px;
+    } */
+    img{
+        border-radius:4px;
+        width:30%;
+    }
+    button{
+        font-size: 2rem;
+   }
+    .container {
+      font-size:50%;
+   }
+    
+    .top-content {
+        padding:1.5%;
+        font-size:50%;
+    }
+    .middle-container {
+       width: 600px;
+      font-size:25%;
+   }
+    
+    .text-container{
+        padding:1.5%;
+       font-size:25%;
+    }
+   /* FOOTER */
+footer nav {
+    padding: 6px 0%;
+    font-size: 3px;
+   }
+
+footer nav a {
+    font-size:1.5rem;
+    padding:1rem;
+}
+         /* CODE FOR ABOUT US PAGE */
+}
+.flex-container div{
+    width:500px;
+    border-radius: 20px;
+    padding:2px;
+    }
+
+  .flex-container img{
+  border-radius: 20px;
+  opacity:0.7;
+  margin-left:25%;
+  
+   }
